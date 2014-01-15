@@ -1,11 +1,6 @@
 package pl.inpar.javapowertools.junit.hamcrestlib;
 
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.hasProperty;
-import static org.hamcrest.Matchers.hasValue;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.isIn;
-import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
 import java.util.ArrayList;
@@ -62,6 +57,17 @@ public class HemcrestMatchersAllTest {
 
 	}
 	
-	
+	@Test
+	public void rangeTest() {
+		
+		assertThat(123, greaterThan(10));
+		
+		assertThat(123, lessThan(200));
+		
+		assertThat(123, greaterThanOrEqualTo(123));
+		
+		assertThat(123, allOf(greaterThan(10), lessThan(200)));
+		
+	}
 	
 }

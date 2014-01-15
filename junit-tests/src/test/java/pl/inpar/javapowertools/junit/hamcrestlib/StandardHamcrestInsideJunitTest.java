@@ -32,5 +32,4 @@ public class StandardHamcrestInsideJunitTest {
 //		assertThat("czarny to czarny", color, is("czarny")); //ten nie przechodzi
 	}
 	
-	
 }
