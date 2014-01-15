@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.Parameters;
 import pl.inpar.javapowertools.junit.taxes.TaxCalculator;
 
 @RunWith(Parameterized.class)
-public class TaxCalculatorParametrizedTest {
+public class ParametrizedTaxCalculatorTest {
 	
 	@Parameters
 	public static Collection<Object[]> data() {
@@ -33,7 +33,7 @@ public class TaxCalculatorParametrizedTest {
 	private double input;
 	private double taxAmountExpected;
 
-	public TaxCalculatorParametrizedTest(double money, double taxAmount) {
+	public ParametrizedTaxCalculatorTest(double money, double taxAmount) {
 		System.out.println("Testing " + money + " with taxExpected " + taxAmount);
 		this.input = money;
 		this.taxAmountExpected = taxAmount;
