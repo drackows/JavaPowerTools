@@ -4,4 +4,5 @@
 *.jar
 *.war
 *.ear
-/junit-tests
+junit-tests/.classpath
+junit-tests/.project
