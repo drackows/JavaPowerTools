@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import pl.inpar.javapowertools.junit.taxes.TaxCalculator;
 
-public class TaxCalculatorTests {
+public class TaxCalculatorTest {
 	
 	static TaxCalculator taxCalculator;
 
