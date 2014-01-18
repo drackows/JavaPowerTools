@@ -1,4 +1,4 @@
-package pl.inpar.javapowertools.junit;
+package pl.inpar.javapowertools;
 
 import static org.junit.Assert.assertTrue;
 
