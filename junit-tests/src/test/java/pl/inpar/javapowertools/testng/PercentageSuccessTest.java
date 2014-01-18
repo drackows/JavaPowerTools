@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class PercentageSuccessTest {
 	
-	//TODO: nie do konca dziala jak trzeba!
+	//TODO: nie działa - chyba jest nienaprawiony bug
 	@Test(invocationCount=1000, successPercentage=95, timeOut=50 )
 	public void percentageTest() {
 		assertTrue(randomTrue());
