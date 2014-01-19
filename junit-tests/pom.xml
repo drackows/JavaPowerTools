@@ -59,6 +59,13 @@
 			<version>1.7.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>junitperf</groupId>
+			<artifactId>junitperf</artifactId>
+			<version>1.8</version>
+		</dependency>
+
+
 	</dependencies>
 
 </project>
