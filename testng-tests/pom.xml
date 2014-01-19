@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pl.inpar.javapowertools.junit</groupId>
-	<artifactId>junit-tests</artifactId>
+	<artifactId>testng-tests</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>junit-tests</name>
+	<name>testng-tests</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -27,6 +27,12 @@
 			<artifactId>hamcrest-all</artifactId>
 			<version>1.3</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.7</version>
 		</dependency>
 
 		<dependency>
