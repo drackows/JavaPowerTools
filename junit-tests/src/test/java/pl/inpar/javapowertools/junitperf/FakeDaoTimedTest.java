@@ -10,7 +10,7 @@ public class FakeDaoTimedTest extends TestCase {
     public static Test suite() {
         TestSuite suite = new TestSuite();
 
-        TestCase testCase = new FakeDaoTest();
+        TestCase testCase = new FakeDaoTest("testFindAll");
         suite.addTest(testCase);
 
         TimedTest timedTest = new TimedTest(testCase, 300);
