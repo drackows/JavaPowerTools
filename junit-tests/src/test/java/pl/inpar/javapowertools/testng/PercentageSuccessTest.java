@@ -1,22 +1,22 @@
 package pl.inpar.javapowertools.testng;
 
-import static org.testng.Assert.assertTrue;
+import org.testng.annotations.Test;
 
 import java.util.Random;
 
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertTrue;
 
 
 public class PercentageSuccessTest {
-	
-	//TODO: nie działa - chyba jest nienaprawiony bug
-	@Test(invocationCount=1000, successPercentage=95, timeOut=50 )
-	public void percentageTest() {
-		assertTrue(randomTrue());
-	}
 
-	private boolean randomTrue() {
-	    return new Random().nextInt(1000)>2;
+    //TODO: nie działa - chyba jest nienaprawiony bug
+    @Test(invocationCount = 1000, successPercentage = 95, timeOut = 50)
+    public void percentageTest() {
+        assertTrue(randomTrue());
     }
-	
+
+    private boolean randomTrue() {
+        return new Random().nextInt(1000) > 2;
+    }
+
 }
