@@ -10,9 +10,9 @@ import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
 
-public class DbTest extends DBTestCase {
+public class NotWorkingDbTest extends DBTestCase {
 
-	public DbTest(String name) {
+	public NotWorkingDbTest(String name) {
 		super(name);
 		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS, "org.hsqldb.jdbcDriver");
 		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:hsqldb:sample");
