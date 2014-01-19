@@ -1,6 +1,5 @@
 package pl.inpar.javapowertools.testng;
 
-import org.junit.Ignore;
 import org.testng.annotations.Test;
 
 import java.util.Random;
